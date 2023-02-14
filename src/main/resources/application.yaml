@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mmanager
+    username: 20253266 # Don't commit credentials!
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+    generate-ddl: false
+
